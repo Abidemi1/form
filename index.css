@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+  box-shadow: white;
+  background-color: wheat;
+}
+h1,
+p,
+legend {
+  text-align: center;
+  font-family: sans-serif;
+}
+#description {
+  position: relative;
+  bottom: 10px;
+}
+#form {
+  box-sizing: border-box;
+  background-color: beige;
+}
+legend {
+  font-size: 30px;
+}
+fieldset {
+  background-color: white;
+  border-color: brown;
+}
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='number'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  box-sizing: border-box;
+}
+#comment {
+  resize: none;
+}
+#q1,
+#subscribe {
+  text-align: left;
+  font-size: 20px;
+}
+input[type='checkbox'] {
+  width: 50px;
+  height: 20px;
+}
+label {
+  font-size: 20px;
+}
+#submit {
+  width: 12%;
+  height: 25px;
+  position: relative;
+  left: 30%;
+}
+#reset {
+  width: 10%;
+  height: 25px;
+  position: relative;
+  left: 33%;
+}

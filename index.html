@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Basic Form</title>
+  </head>
+
+  <body>
+    <main id="form">
+      <h1 id="title">Basic Form</h1>
+      <p id="description">Career Choice</p>
+    </main>
+    <div id="box">
+      <section>
+        <form id="survey-form" action="#">
+          <fieldset>
+            <legend>Form</legend>
+            <label id="label-name" for="name">Enter FirstName:</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="firstname"
+              minlength="5"
+              maxlength="10"
+              required
+            />
+            <br />
+            <br />
+            <label id="label-lname" for="lname">Enter Lastname:</label>
+            <input
+              id="lname"
+              type="text"
+              placeholder="lastname"
+              minlength="10"
+              maxlength="15"
+              required
+            />
+            <br />
+            <br />
+            <label id="label-email" for="email">Enter Email:</label>
+            <input id="email" type="email" placeholder="email" required />
+            <br />
+            <br />
+            <label id="label-number" for="number">Enter Mobile Number:</label>
+            <input
+              id="number"
+              type="tel"
+              placeholder="mobile"
+              minlength="10"
+              maxlength="12"
+              required
+            /><br />
+            <br />
+            <label id="label-gender" for="gender">Gender:</label>
+            <select name="gender" id="gender">
+              <option value="select">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Prefer not to say</option>
+            </select>
+            <br />
+            <br />
+            <label for="age" id="age">Age:</label>
+            <input type="number" name="age" id="age" min="16" max="40" />
+            <br />
+            <br />
+            <label id="label-career" for="career">Career:</label>
+            <select name="career" id="career">
+              <option value="select">Select</option>
+              <option value="male">Front End Developer</option>
+              <option value="female">Back End Developer</option>
+              <option value="other">Full Stack Developer</option>
+            </select>
+            <br />
+            <br />
+            <label id="label-choice" for="choice"
+              >Explain why you decided this career:</label
+            >
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="enter comment here"
+            ></textarea>
+            <br />
+            <p id="q1">What's Your Favourite Framework?</p>
+            <input type="checkbox" id="multiple" value="m0" />
+            <label id="multiple1" for="checkbox">BootStrap</label>
+            <br />
+            <input type="checkbox" id="multiple1" value="m1" />
+            <label id="multiple11" for="checkbox">AngularJS</label>
+            <br />
+            <input type="checkbox" id="multiple2" value="m2" />
+            <label id="multiple22" for="checkbox">VueJS</label>
+            <br />
+            <input type="checkbox" id="multiple3" value="m3" />
+            <label id="multiple33" for="checkbox">JQuery</label>
+            <br />
+            <input type="checkbox" id="multiple4" value="m4" />
+            <label id="multiple44" for="checkbox">ReactJS</label>
+            <br />
+            <input type="checkbox" id="multiple5" value="m5" />
+            <label id="multiple55" for="checkbox">All of the above</label>
+            <br />
+            <br />
+            <p id="subscribe">Would you like to subscribe?</p>
+            <input type="radio" id="yes" name="radio1" value="Yes" />
+            <label for="radio" id="yes1">Yes</label>
+            <input type="radio" id="no1" name="radio1" value="No" />
+            <label for="radio" id="no">No</label>
+            <br />
+            <br />
+            <button type="submit" id="submit">Sumbit</button>
+            <button type="reset" id="reset">Reset</button>
+          </fieldset>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
